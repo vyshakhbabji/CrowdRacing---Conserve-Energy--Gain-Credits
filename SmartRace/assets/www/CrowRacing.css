@@ -1,0 +1,17 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.3.2/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.CrowRacing_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobiletextarea_1 */
+.CrowRacing_mobiletextarea_1 {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilefooter */
+.CrowRacing_mobilefooter {
+	min-height:38px;
+}

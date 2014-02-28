@@ -1,0 +1,128 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.3.2/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilebutton_1 */
+#RaceEventScreen_mobilebutton_1 {
+
+}
+.ui-btn.RaceEventScreen_mobilebutton_1 {
+
+}
+/* mobilebutton_16 */
+#RaceEventScreen_mobilebutton_16 {
+
+}
+.ui-btn.RaceEventScreen_mobilebutton_16 {
+
+}
+/* mobilecontainer */
+.ui-content.RaceEventScreen_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilecollapsblock_3 */
+.RaceEventScreen_mobilecollapsblock_3 {
+	margin: 4px 8px 4px 8px;
+}
+.RaceEventScreen_mobilecollapsblock_3 .ui-collapsible-content {
+	padding: 10px 15px 10px 15px;
+}
+/* dateeventabel */
+.RaceEventScreen_dateeventabel {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilegrid_9 */
+.RaceEventScreen_mobilegrid_9 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.RaceEventScreen_mobilegrid_9 > tr > td {
+	vertical-align: top;
+}
+.RaceEventScreen_mobilegrid_9_row_0, .RaceEventScreen_mobilegrid_9_row_0 > td {
+	height: 30px
+}
+.RaceEventScreen_mobilegrid_9_row_1, .RaceEventScreen_mobilegrid_9_row_1 > td {
+	height: 30px
+}
+/* mobilegridcell_10 */
+.RaceEventScreen_mobilegridcell_10 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.RaceEventScreen_mobilegridcell_10 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_14 */
+.RaceEventScreen_mobilelabel_14 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilegridcell_11 */
+.RaceEventScreen_mobilegridcell_11 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.RaceEventScreen_mobilegridcell_11 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* cashPrizeInputlabel */
+.RaceEventScreen_cashPrizeInputlabel {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilegridcell_12 */
+.RaceEventScreen_mobilegridcell_12 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.RaceEventScreen_mobilegridcell_12 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_15 */
+.RaceEventScreen_mobilelabel_15 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilegridcell_13 */
+.RaceEventScreen_mobilegridcell_13 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.RaceEventScreen_mobilegridcell_13 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* targetInputlabel */
+.RaceEventScreen_targetInputlabel {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* joinEventbutton */
+#RaceEventScreen_joinEventbutton {
+
+}
+.ui-btn.RaceEventScreen_joinEventbutton {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilefooter */
+.RaceEventScreen_mobilefooter {
+	min-height:38px;
+}

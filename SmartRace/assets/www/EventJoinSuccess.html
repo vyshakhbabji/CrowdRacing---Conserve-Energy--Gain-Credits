@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            EventJoinSuccess
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="initial-scale=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <link href="files/resources/lib/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="files/resources/lib/theme/ios-like/ios-like.css" rel="stylesheet" />
+        <link href="files/resources/lib/jquerymobile/1.3.2/jquery.mobile.structure-1.3.2.css"
+        rel="stylesheet" />
+        <link type="text/css" rel="stylesheet" href="files/views/assets/css/FacebookPublishing_CSS.css"
+        />
+        <script type="text/javascript" src="files/resources/lib/store/json2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/jquery-1.8.2.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/1.3.2/jquery.mobile-1.3.2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/js/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jsonpath.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jquery.xml2json.min.js">
+        </script>
+        <link href="files/resources/lib/datepicker/jquery.ui.datepicker.mobile.css" rel="stylesheet"
+        type="text/css" />
+        <script type="text/javascript" src="files/resources/lib/datepicker/jQuery.ui.datepicker.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/datepicker/jquery.ui.datepicker.mobile.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/appery.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/cordova.js">
+        </script>
+        <link href="files/resources/css/mobilebase.css" rel="stylesheet" type="text/css"
+        />
+        <script type="text/javascript" src="files/views/assets/js/FacebookPublishing_Utils.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                if (navigator.userAgent.match(/iP/i))
+        {
+            $(window).bind('orientationchange', function(event)
+            {
+                $('meta[name="viewport"]').attr('content', 'initial-scale=1.0,maximum-scale=1.0, ' + ((window.orientation == 90 || window.orientation == -90 || window.orientation == 270) ? "height=device-width,width=device-height" : "height=device-height,width=device-width"));
+            }).trigger('orientationchange');
+        }
+        $(document).bind("mobileinit", function()
+        {
+            $.mobile.page.prototype.options.degradeInputs.date = true;
+        });
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="EventJoinSuccess" id="EventJoinSuccess"
+        class="type-interior" data-theme="b" data-add-back-btn="false" data-back-btn-text="Back">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-theme="b" name="mobileheader"
+            id="EventJoinSuccess_mobileheader" class=' EventJoinSuccess_mobileheader '>
+                <h1 dsid="mobileheader">
+                    &nbsp;
+                </h1>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="EventJoinSuccess_mobilecontainer" name="mobilecontainer"
+            class=" EventJoinSuccess_mobilecontainer" dsid="mobilecontainer" data-theme="b">
+                <link href="EventJoinSuccess.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="EventJoinSuccess.js">
+                </script>
+                <!-- mobilelabel_1 -->
+                <div name="mobilelabel_1" id="EventJoinSuccess_mobilelabel_1" dsid="mobilelabel_1"
+                data-role="appery_label" class=' EventJoinSuccess_mobilelabel_1 '>
+                    Congratulations!!! You have joined event sucessfully!!!!
+                </div>
+                <!-- mainButton -->
+                <a data-role="button" name="mainButton" dsid="mainButton" class='  EventJoinSuccess_mainButton'
+                id="EventJoinSuccess_mainButton" data-corners="true" x-apple-data-detectors="false"
+                data-mini="false" data-theme="b" tabindex="1">
+                Go to Main Menu
+                </a>
+                <!-- mobilebutton_17 -->
+                <a data-role="button" name="mobilebutton_17" dsid="mobilebutton_17" class='  EventJoinSuccess_mobilebutton_17'
+                id="EventJoinSuccess_mobilebutton_17" data-corners="true" x-apple-data-detectors="false"
+                data-mini="false" data-theme="b" tabindex="3">
+                Share it in Facebook
+                </a>
+                <!-- mobilegrid_3 -->
+                <div class="EventJoinSuccess_mobilegrid_3_wrapper">
+                    <table id="EventJoinSuccess_mobilegrid_3" class=" EventJoinSuccess_mobilegrid_3"
+                    dsid="mobilegrid_3" name="mobilegrid_3" cellpadding=0 cellspacing=0>
+                        <col style="width:auto;" />
+                        <col style="width:auto;" />
+                        <col style="width:auto;" />
+                        <tr class="EventJoinSuccess_mobilegrid_3_row_0">
+                            <!-- mobilegridcell_4 -->
+                            <td id="EventJoinSuccess_mobilegridcell_4" name="mobilegridcell_4" class="EventJoinSuccess_mobilegridcell_4"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_5 -->
+                            <td id="EventJoinSuccess_mobilegridcell_5" name="mobilegridcell_5" class="EventJoinSuccess_mobilegridcell_5"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_8 -->
+                            <td id="EventJoinSuccess_mobilegridcell_8" name="mobilegridcell_8" class="EventJoinSuccess_mobilegridcell_8"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="EventJoinSuccess_mobilegrid_3_row_1">
+                            <!-- mobilegridcell_6 -->
+                            <td id="EventJoinSuccess_mobilegridcell_6" name="mobilegridcell_6" class="EventJoinSuccess_mobilegridcell_6"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_7 -->
+                            <td id="EventJoinSuccess_mobilegridcell_7" name="mobilegridcell_7" class="EventJoinSuccess_mobilegridcell_7"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_9 -->
+                            <td id="EventJoinSuccess_mobilegridcell_9" name="mobilegridcell_9" class="EventJoinSuccess_mobilegridcell_9"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="EventJoinSuccess_mobilegrid_3_row_2">
+                            <!-- mobilegridcell_10 -->
+                            <td id="EventJoinSuccess_mobilegridcell_10" name="mobilegridcell_10" class="EventJoinSuccess_mobilegridcell_10"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_11 -->
+                            <td id="EventJoinSuccess_mobilegridcell_11" name="mobilegridcell_11" class="EventJoinSuccess_mobilegridcell_11"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_12 -->
+                            <td id="EventJoinSuccess_mobilegridcell_12" name="mobilegridcell_12" class="EventJoinSuccess_mobilegridcell_12"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="EventJoinSuccess_mobilegrid_3_row_3">
+                            <!-- mobilegridcell_13 -->
+                            <td id="EventJoinSuccess_mobilegridcell_13" name="mobilegridcell_13" class="EventJoinSuccess_mobilegridcell_13"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_14 -->
+                            <td id="EventJoinSuccess_mobilegridcell_14" name="mobilegridcell_14" class="EventJoinSuccess_mobilegridcell_14"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_15 -->
+                            <td id="EventJoinSuccess_mobilegridcell_15" name="mobilegridcell_15" class="EventJoinSuccess_mobilegridcell_15"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class=" EventJoinSuccess_mobilefooter"
+            name="mobilefooter" dsid="mobilefooter" id="EventJoinSuccess_mobilefooter" data-theme="b">
+            </div>
+        </div>
+    </body>
+
+</html>

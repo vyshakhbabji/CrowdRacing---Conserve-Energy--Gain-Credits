@@ -1,0 +1,176 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.3.2/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.EventJoinSuccess_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilelabel_1 */
+.EventJoinSuccess_mobilelabel_1 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 32px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mainButton */
+#EventJoinSuccess_mainButton {
+
+}
+.ui-btn.EventJoinSuccess_mainButton {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilebutton_17 */
+#EventJoinSuccess_mobilebutton_17 {
+
+}
+.ui-btn.EventJoinSuccess_mobilebutton_17 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilegrid_3 */
+.EventJoinSuccess_mobilegrid_3 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.EventJoinSuccess_mobilegrid_3 > tr > td {
+	vertical-align: top;
+}
+.EventJoinSuccess_mobilegrid_3_row_0, .EventJoinSuccess_mobilegrid_3_row_0 > td {
+	height: 30px
+}
+.EventJoinSuccess_mobilegrid_3_row_1, .EventJoinSuccess_mobilegrid_3_row_1 > td {
+	height: 30px
+}
+.EventJoinSuccess_mobilegrid_3_row_2, .EventJoinSuccess_mobilegrid_3_row_2 > td {
+	height: 30px
+}
+.EventJoinSuccess_mobilegrid_3_row_3, .EventJoinSuccess_mobilegrid_3_row_3 > td {
+	height: 67px
+}
+/* mobilegridcell_4 */
+.EventJoinSuccess_mobilegridcell_4 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.EventJoinSuccess_mobilegridcell_4 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_5 */
+.EventJoinSuccess_mobilegridcell_5 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.EventJoinSuccess_mobilegridcell_5 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_8 */
+.EventJoinSuccess_mobilegridcell_8 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.EventJoinSuccess_mobilegridcell_8 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_6 */
+.EventJoinSuccess_mobilegridcell_6 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.EventJoinSuccess_mobilegridcell_6 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_7 */
+.EventJoinSuccess_mobilegridcell_7 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.EventJoinSuccess_mobilegridcell_7 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_9 */
+.EventJoinSuccess_mobilegridcell_9 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.EventJoinSuccess_mobilegridcell_9 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_10 */
+.EventJoinSuccess_mobilegridcell_10 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.EventJoinSuccess_mobilegridcell_10 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_11 */
+.EventJoinSuccess_mobilegridcell_11 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.EventJoinSuccess_mobilegridcell_11 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_12 */
+.EventJoinSuccess_mobilegridcell_12 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.EventJoinSuccess_mobilegridcell_12 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_13 */
+.EventJoinSuccess_mobilegridcell_13 {
+	height:67px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.EventJoinSuccess_mobilegridcell_13 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_14 */
+.EventJoinSuccess_mobilegridcell_14 {
+	height:67px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.EventJoinSuccess_mobilegridcell_14 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_15 */
+.EventJoinSuccess_mobilegridcell_15 {
+	height:67px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.EventJoinSuccess_mobilegridcell_15 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilefooter */
+.EventJoinSuccess_mobilefooter {
+	min-height:38px;
+}

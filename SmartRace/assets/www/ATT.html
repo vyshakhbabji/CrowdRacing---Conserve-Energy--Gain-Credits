@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            ATT
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="initial-scale=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <link href="files/resources/lib/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="files/resources/lib/theme/ios-like/ios-like.css" rel="stylesheet" />
+        <link href="files/resources/lib/jquerymobile/1.3.2/jquery.mobile.structure-1.3.2.css"
+        rel="stylesheet" />
+        <link type="text/css" rel="stylesheet" href="files/views/assets/css/FacebookPublishing_CSS.css"
+        />
+        <script type="text/javascript" src="files/resources/lib/store/json2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/jquery-1.8.2.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/1.3.2/jquery.mobile-1.3.2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/js/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jsonpath.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jquery.xml2json.min.js">
+        </script>
+        <link href="files/resources/lib/datepicker/jquery.ui.datepicker.mobile.css" rel="stylesheet"
+        type="text/css" />
+        <script type="text/javascript" src="files/resources/lib/datepicker/jQuery.ui.datepicker.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/datepicker/jquery.ui.datepicker.mobile.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/appery.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/cordova.js">
+        </script>
+        <link href="files/resources/css/mobilebase.css" rel="stylesheet" type="text/css"
+        />
+        <script type="text/javascript" src="files/views/assets/js/FacebookPublishing_Utils.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                if (navigator.userAgent.match(/iP/i))
+        {
+            $(window).bind('orientationchange', function(event)
+            {
+                $('meta[name="viewport"]').attr('content', 'initial-scale=1.0,maximum-scale=1.0, ' + ((window.orientation == 90 || window.orientation == -90 || window.orientation == 270) ? "height=device-width,width=device-height" : "height=device-height,width=device-width"));
+            }).trigger('orientationchange');
+        }
+        $(document).bind("mobileinit", function()
+        {
+            $.mobile.page.prototype.options.degradeInputs.date = true;
+        });
+        </script>
+        <div data-role="dialog" style="min-height:480px;" dsid="ATT" id="ATT" class="type-interior"
+        data-theme="b" data-add-back-btn="false" data-back-btn-text="Back" data-close-btn='right'>
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-theme="b" name="mobileheader"
+            id="ATT_mobileheader" class=' ATT_mobileheader '>
+                <h1 dsid="mobileheader">
+                    AT&amp;T
+                </h1>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="ATT_mobilecontainer" name="mobilecontainer" class=" ATT_mobilecontainer"
+            dsid="mobilecontainer" data-theme="b">
+                <link href="ATT.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="ATT.js">
+                </script>
+                <!-- mobiletextarea_1 -->
+                <div data-role="fieldcontain" class="ATT_mobiletextarea_1 ">
+                    <textarea name="mobiletextarea_1" id="ATT_mobiletextarea_1" tabindex="1" dsid="mobiletextarea_1"
+                    data-theme="b" placeholder="" class=' ATT_mobiletextarea_1 '>AT&amp;T Inc. is an American multinational telecommunications corporation headquartered in Whitacre Tower, downtown Dallas, Texas.[4] AT&amp;T is the largest provider both of mobile telephony and of fixed telephony[5] in the United States, and also provides broadband subscription television services. AT&amp;T is the third-largest company in Texas (the largest non-oil company, behind only ExxonMobil and ConocoPhillips, and also the largest Dallas company).[6] As of May 2013, AT&amp;T is the 21st largest company in the world by market value,[7] and the 13th largest non-oil company.[8] As of 2013, it is also the 21st largest mobile telecom operator in the world, with over 107.9 million mobile customers. For more information visit www.att.com
+</textarea>
+                </div>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class=" ATT_mobilefooter" name="mobilefooter"
+            dsid="mobilefooter" id="ATT_mobilefooter" data-theme="b">
+            </div>
+        </div>
+    </body>
+
+</html>

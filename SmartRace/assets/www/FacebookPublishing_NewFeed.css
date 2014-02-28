@@ -1,0 +1,24 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.3.2/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.FacebookPublishing_NewFeed_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobiletextarea_2 */
+.FacebookPublishing_NewFeed_mobiletextarea_2 {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilebutton_3 */
+#FacebookPublishing_NewFeed_mobilebutton_3 {
+
+}
+.ui-btn.FacebookPublishing_NewFeed_mobilebutton_3 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilefooter1 */
+.FacebookPublishing_NewFeed_mobilefooter1 {
+	min-height:38px;
+}

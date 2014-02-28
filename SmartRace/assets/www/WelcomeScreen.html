@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            WelcomeScreen
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="initial-scale=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <link href="files/resources/lib/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="files/resources/lib/theme/ios-like/ios-like.css" rel="stylesheet" />
+        <link href="files/resources/lib/jquerymobile/1.3.2/jquery.mobile.structure-1.3.2.css"
+        rel="stylesheet" />
+        <link type="text/css" rel="stylesheet" href="files/views/assets/css/FacebookPublishing_CSS.css"
+        />
+        <script type="text/javascript" src="files/resources/lib/store/json2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/jquery-1.8.2.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/1.3.2/jquery.mobile-1.3.2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/js/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jsonpath.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jquery.xml2json.min.js">
+        </script>
+        <link href="files/resources/lib/datepicker/jquery.ui.datepicker.mobile.css" rel="stylesheet"
+        type="text/css" />
+        <script type="text/javascript" src="files/resources/lib/datepicker/jQuery.ui.datepicker.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/datepicker/jquery.ui.datepicker.mobile.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/appery.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/cordova.js">
+        </script>
+        <link href="files/resources/css/mobilebase.css" rel="stylesheet" type="text/css"
+        />
+        <script type="text/javascript" src="files/views/assets/js/FacebookPublishing_Utils.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                if (navigator.userAgent.match(/iP/i))
+        {
+            $(window).bind('orientationchange', function(event)
+            {
+                $('meta[name="viewport"]').attr('content', 'initial-scale=1.0,maximum-scale=1.0, ' + ((window.orientation == 90 || window.orientation == -90 || window.orientation == 270) ? "height=device-width,width=device-height" : "height=device-height,width=device-width"));
+            }).trigger('orientationchange');
+        }
+        $(document).bind("mobileinit", function()
+        {
+            $.mobile.page.prototype.options.degradeInputs.date = true;
+        });
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="WelcomeScreen" id="WelcomeScreen"
+        class="type-interior" data-theme="b" data-add-back-btn="false" data-back-btn-text="Back">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-theme="b" name="mobileheader"
+            id="WelcomeScreen_mobileheader" class=' WelcomeScreen_mobileheader '>
+                <h1 dsid="mobileheader">
+                    &nbsp;
+                </h1>
+                <!-- mobilebutton_15 -->
+                <a data-role="button" name="mobilebutton_15" dsid="mobilebutton_15" class='ui-btn-right   WelcomeScreen_mobilebutton_15'
+                style='min-height:16px; ' id="WelcomeScreen_mobilebutton_15" data-corners="true"
+                data-icon="grid" data-iconpos="left" x-apple-data-detectors="false" data-inline='true'
+                data-mini='true' data-theme="b" tabindex="3">
+                &nbsp;
+                </a>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="WelcomeScreen_mobilecontainer" name="mobilecontainer"
+            class=" WelcomeScreen_mobilecontainer" dsid="mobilecontainer" data-theme="b">
+                <link href="WelcomeScreen.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="WelcomeScreen.js">
+                </script>
+                <!-- welcomeName -->
+                <div name="welcomeName" id="WelcomeScreen_welcomeName" dsid="welcomeName" data-role="appery_label"
+                class=' WelcomeScreen_welcomeName '>
+                    CrowdRacing
+                </div>
+                <!-- mobilegrid_24 -->
+                <div class="WelcomeScreen_mobilegrid_24_wrapper">
+                    <table id="WelcomeScreen_mobilegrid_24" class=" WelcomeScreen_mobilegrid_24" dsid="mobilegrid_24"
+                    name="mobilegrid_24" cellpadding=0 cellspacing=0>
+                        <col style="width:auto;" />
+                        <col style="width:29px;" />
+                        <tr class="WelcomeScreen_mobilegrid_24_row_0">
+                            <!-- mobilegridcell_25 -->
+                            <td id="WelcomeScreen_mobilegridcell_25" name="mobilegridcell_25" class="WelcomeScreen_mobilegridcell_25"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_26 -->
+                            <td id="WelcomeScreen_mobilegridcell_26" name="mobilegridcell_26" class="WelcomeScreen_mobilegridcell_26"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="WelcomeScreen_mobilegrid_24_row_1">
+                            <!-- mobilegridcell_27 -->
+                            <td id="WelcomeScreen_mobilegridcell_27" name="mobilegridcell_27" class="WelcomeScreen_mobilegridcell_27"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_28 -->
+                            <td id="WelcomeScreen_mobilegridcell_28" name="mobilegridcell_28" class="WelcomeScreen_mobilegridcell_28"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- continueButton -->
+                <a data-role="button" name="continueButton" dsid="continueButton" class='  WelcomeScreen_continueButton'
+                id="WelcomeScreen_continueButton" data-corners="true" x-apple-data-detectors="false"
+                data-mini="false" data-theme="b" tabindex="2">
+                Let's GO!!!
+                </a>
+                <!-- mobilegrid_16 -->
+                <div class="WelcomeScreen_mobilegrid_16_wrapper">
+                    <table id="WelcomeScreen_mobilegrid_16" class=" WelcomeScreen_mobilegrid_16" dsid="mobilegrid_16"
+                    name="mobilegrid_16" cellpadding=0 cellspacing=0>
+                        <col style="width:147px;" />
+                        <col style="width:auto;" />
+                        <tr class="WelcomeScreen_mobilegrid_16_row_0">
+                            <!-- mobilegridcell_17 -->
+                            <td id="WelcomeScreen_mobilegridcell_17" name="mobilegridcell_17" class="WelcomeScreen_mobilegridcell_17"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_22 -->
+                            <td id="WelcomeScreen_mobilegridcell_22" name="mobilegridcell_22" class="WelcomeScreen_mobilegridcell_22"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- mobilegrid_8 -->
+                <div class="WelcomeScreen_mobilegrid_8_wrapper">
+                    <table id="WelcomeScreen_mobilegrid_8" class=" WelcomeScreen_mobilegrid_8" dsid="mobilegrid_8"
+                    name="mobilegrid_8" cellpadding=0 cellspacing=0>
+                        <col style="width:auto;" />
+                        <col style="width:auto;" />
+                        <tr class="WelcomeScreen_mobilegrid_8_row_0">
+                            <!-- mobilegridcell_9 -->
+                            <td id="WelcomeScreen_mobilegridcell_9" name="mobilegridcell_9" class="WelcomeScreen_mobilegridcell_9"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel_2 -->
+                                    <div name="mobilelabel_2" id="WelcomeScreen_mobilelabel_2" dsid="mobilelabel_2"
+                                    data-role="appery_label" class=' WelcomeScreen_mobilelabel_2 '>
+                                        Powered for
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_10 -->
+                            <td id="WelcomeScreen_mobilegridcell_10" name="mobilegridcell_10" class="WelcomeScreen_mobilegridcell_10"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- mobilegrid_4 -->
+                <div class="WelcomeScreen_mobilegrid_4_wrapper">
+                    <table id="WelcomeScreen_mobilegrid_4" class=" WelcomeScreen_mobilegrid_4" dsid="mobilegrid_4"
+                    name="mobilegrid_4" cellpadding=0 cellspacing=0>
+                        <col style="width:auto;" />
+                        <col style="width:auto;" />
+                        <tr class="WelcomeScreen_mobilegrid_4_row_0">
+                            <!-- mobilegridcell_5 -->
+                            <td id="WelcomeScreen_mobilegridcell_5" name="mobilegridcell_5" class="WelcomeScreen_mobilegridcell_5"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- ATT -->
+                                    <img class=" WelcomeScreen_ATT" src="files/views/assets/image/att.jpg" id="WelcomeScreen_ATT"
+                                    dsid="ATT" name="ATT" />
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_6 -->
+                            <td id="WelcomeScreen_mobilegridcell_6" name="mobilegridcell_6" class="WelcomeScreen_mobilegridcell_6"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- SDGElogo -->
+                                    <img class=" WelcomeScreen_SDGElogo" src="files/views/assets/image/sdge.jpg" id="WelcomeScreen_SDGElogo"
+                                    dsid="SDGElogo" name="SDGElogo" />
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class=" WelcomeScreen_mobilefooter"
+            name="mobilefooter" dsid="mobilefooter" id="WelcomeScreen_mobilefooter" data-theme="b">
+            </div>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,210 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.3.2/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* buttonback */
+#ScoreBoard_buttonback {
+
+}
+.ui-btn.ScoreBoard_buttonback {
+
+}
+/* mobilecontainer */
+.ui-content.ScoreBoard_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilegrid_1 */
+.ScoreBoard_mobilegrid_1 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.ScoreBoard_mobilegrid_1 > tr > td {
+	vertical-align: top;
+}
+.ScoreBoard_mobilegrid_1_row_0, .ScoreBoard_mobilegrid_1_row_0 > td {
+	height: 30px
+}
+.ScoreBoard_mobilegrid_1_row_1, .ScoreBoard_mobilegrid_1_row_1 > td {
+	height: 30px
+}
+/* mobilegridcell_2 */
+.ScoreBoard_mobilegridcell_2 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.ScoreBoard_mobilegridcell_2 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_8 */
+.ScoreBoard_mobilelabel_8 {
+	text-decoration: none; font-weight: bold; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilegridcell_3 */
+.ScoreBoard_mobilegridcell_3 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.ScoreBoard_mobilegridcell_3 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_9 */
+.ScoreBoard_mobilelabel_9 {
+	text-decoration: none; font-weight: bold; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilegridcell_6 */
+.ScoreBoard_mobilegridcell_6 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.ScoreBoard_mobilegridcell_6 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_10 */
+.ScoreBoard_mobilelabel_10 {
+	text-decoration: none; font-weight: bold; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilegridcell_4 */
+.ScoreBoard_mobilegridcell_4 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.ScoreBoard_mobilegridcell_4 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_5 */
+.ScoreBoard_mobilegridcell_5 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.ScoreBoard_mobilegridcell_5 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_7 */
+.ScoreBoard_mobilegridcell_7 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.ScoreBoard_mobilegridcell_7 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegrid_11 */
+.ScoreBoard_mobilegrid_11 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.ScoreBoard_mobilegrid_11 > tr > td {
+	vertical-align: top;
+}
+.ScoreBoard_mobilegrid_11_row_0, .ScoreBoard_mobilegrid_11_row_0 > td {
+	height: 30px
+}
+.ScoreBoard_mobilegrid_11_row_1, .ScoreBoard_mobilegrid_11_row_1 > td {
+	height: 30px
+}
+/* mobilegridcell_12 */
+.ScoreBoard_mobilegridcell_12 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.ScoreBoard_mobilegridcell_12 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* Numberlabel */
+.ScoreBoard_Numberlabel {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilegridcell_13 */
+.ScoreBoard_mobilegridcell_13 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.ScoreBoard_mobilegridcell_13 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* Racelabel */
+.ScoreBoard_Racelabel {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilegridcell_16 */
+.ScoreBoard_mobilegridcell_16 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.ScoreBoard_mobilegridcell_16 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* Savinglabel */
+.ScoreBoard_Savinglabel {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilegridcell_14 */
+.ScoreBoard_mobilegridcell_14 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.ScoreBoard_mobilegridcell_14 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_15 */
+.ScoreBoard_mobilegridcell_15 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.ScoreBoard_mobilegridcell_15 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_17 */
+.ScoreBoard_mobilegridcell_17 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.ScoreBoard_mobilegridcell_17 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilefooter */
+.ScoreBoard_mobilefooter {
+	min-height:38px;
+}

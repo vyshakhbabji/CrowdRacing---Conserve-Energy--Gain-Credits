@@ -1,0 +1,164 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.3.2/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilebutton_21 */
+#FirstScreen_mobilebutton_21 {
+
+}
+.ui-btn.FirstScreen_mobilebutton_21 {
+
+}
+/* mobilebutton_22 */
+#FirstScreen_mobilebutton_22 {
+
+}
+.ui-btn.FirstScreen_mobilebutton_22 {
+
+}
+/* mobilecontainer */
+.ui-content.FirstScreen_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* createEventButton */
+#FirstScreen_createEventButton {
+
+}
+.ui-btn.FirstScreen_createEventButton {
+	margin: 20px 5px 4px 5px;
+}
+/* startRaceButton */
+#FirstScreen_startRaceButton {
+
+}
+.ui-btn.FirstScreen_startRaceButton {
+	margin: 20px 5px 4px 5px;
+}
+/* resultButton */
+#FirstScreen_resultButton {
+
+}
+.ui-btn.FirstScreen_resultButton {
+	margin: 20px 5px 4px 5px;
+}
+/* mobilegrid_9 */
+.FirstScreen_mobilegrid_9 {
+	height: auto;
+	width:100%;
+	margin: 20px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.FirstScreen_mobilegrid_9 > tr > td {
+	vertical-align: top;
+}
+.FirstScreen_mobilegrid_9_row_0, .FirstScreen_mobilegrid_9_row_0 > td {
+	height: 30px
+}
+.FirstScreen_mobilegrid_9_row_1, .FirstScreen_mobilegrid_9_row_1 > td {
+	height: 30px
+}
+.FirstScreen_mobilegrid_9_row_2, .FirstScreen_mobilegrid_9_row_2 > td {
+	height: 10px
+}
+/* mobilegridcell_10 */
+.FirstScreen_mobilegridcell_10 {
+	height:30px !important;
+	width:49px;
+	padding: 2px 2px 2px 2px;
+}
+.FirstScreen_mobilegridcell_10 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_11 */
+.FirstScreen_mobilegridcell_11 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.FirstScreen_mobilegridcell_11 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_16 */
+.FirstScreen_mobilegridcell_16 {
+	height:30px !important;
+	width:4px;
+	padding: 2px 2px 2px 2px;
+}
+.FirstScreen_mobilegridcell_16 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_12 */
+.FirstScreen_mobilegridcell_12 {
+	height:30px !important;
+	width:49px;
+	padding: 0px 0px 0px 0px;
+}
+.FirstScreen_mobilegridcell_12 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_13 */
+.FirstScreen_mobilegridcell_13 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.FirstScreen_mobilegridcell_13 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobileimage */
+.FirstScreen_mobileimage {
+	margin: 4px 0px 4px 0px;
+	width: 184px; height: 100px;
+	display: block;
+}
+/* mobilegridcell_17 */
+.FirstScreen_mobilegridcell_17 {
+	height:30px !important;
+	width:4px;
+	padding: 2px 2px 2px 2px;
+}
+.FirstScreen_mobilegridcell_17 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_14 */
+.FirstScreen_mobilegridcell_14 {
+	height:10px !important;
+	width:49px;
+	padding: 2px 2px 2px 2px;
+}
+.FirstScreen_mobilegridcell_14 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_15 */
+.FirstScreen_mobilegridcell_15 {
+	height:10px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.FirstScreen_mobilegridcell_15 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_18 */
+.FirstScreen_mobilegridcell_18 {
+	height:10px !important;
+	width:4px;
+	padding: 2px 2px 2px 2px;
+}
+.FirstScreen_mobilegridcell_18 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilefooter */
+.FirstScreen_mobilefooter {
+	min-height:38px;
+}

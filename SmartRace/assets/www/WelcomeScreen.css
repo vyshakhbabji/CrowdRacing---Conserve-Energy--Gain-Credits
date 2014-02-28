@@ -1,0 +1,210 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.3.2/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilebutton_15 */
+#WelcomeScreen_mobilebutton_15 {
+
+}
+.ui-btn.WelcomeScreen_mobilebutton_15 {
+
+}
+/* mobilecontainer */
+.ui-content.WelcomeScreen_mobilecontainer {
+	padding: 15px 15px 10px 15px;
+}
+/* welcomeName */
+.WelcomeScreen_welcomeName {
+	text-decoration: none; font-weight: bold; font-style: italic; color: #101011; text-align: center; font-family: Helvetica; font-size: 36px;
+	margin: 20px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilegrid_24 */
+.WelcomeScreen_mobilegrid_24 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.WelcomeScreen_mobilegrid_24 > tr > td {
+	vertical-align: top;
+}
+.WelcomeScreen_mobilegrid_24_row_0, .WelcomeScreen_mobilegrid_24_row_0 > td {
+	height: 28px
+}
+.WelcomeScreen_mobilegrid_24_row_1, .WelcomeScreen_mobilegrid_24_row_1 > td {
+	height: 10px
+}
+/* mobilegridcell_25 */
+.WelcomeScreen_mobilegridcell_25 {
+	height:28px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.WelcomeScreen_mobilegridcell_25 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_26 */
+.WelcomeScreen_mobilegridcell_26 {
+	height:28px !important;
+	width:25px;
+	padding: 2px 2px 2px 2px;
+}
+.WelcomeScreen_mobilegridcell_26 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_27 */
+.WelcomeScreen_mobilegridcell_27 {
+	height:10px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.WelcomeScreen_mobilegridcell_27 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_28 */
+.WelcomeScreen_mobilegridcell_28 {
+	height:10px !important;
+	width:25px;
+	padding: 2px 2px 2px 2px;
+}
+.WelcomeScreen_mobilegridcell_28 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* continueButton */
+#WelcomeScreen_continueButton {
+
+}
+.ui-btn.WelcomeScreen_continueButton {
+	margin: 30px 5px 30px 5px;
+}
+/* mobilegrid_16 */
+.WelcomeScreen_mobilegrid_16 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.WelcomeScreen_mobilegrid_16 > tr > td {
+	vertical-align: top;
+}
+.WelcomeScreen_mobilegrid_16_row_0, .WelcomeScreen_mobilegrid_16_row_0 > td {
+	height: 10px
+}
+/* mobilegridcell_17 */
+.WelcomeScreen_mobilegridcell_17 {
+	height:10px !important;
+	width:143px;
+	padding: 2px 2px 2px 2px;
+}
+.WelcomeScreen_mobilegridcell_17 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_22 */
+.WelcomeScreen_mobilegridcell_22 {
+	height:10px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.WelcomeScreen_mobilegridcell_22 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegrid_8 */
+.WelcomeScreen_mobilegrid_8 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.WelcomeScreen_mobilegrid_8 > tr > td {
+	vertical-align: top;
+}
+.WelcomeScreen_mobilegrid_8_row_0, .WelcomeScreen_mobilegrid_8_row_0 > td {
+	height: 10px
+}
+/* mobilegridcell_9 */
+.WelcomeScreen_mobilegridcell_9 {
+	height:10px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.WelcomeScreen_mobilegridcell_9 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_2 */
+.WelcomeScreen_mobilelabel_2 {
+	text-decoration: none; font-weight: bold; font-style: italic; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilegridcell_10 */
+.WelcomeScreen_mobilegridcell_10 {
+	height:10px !important;
+	width:auto;
+	padding: 2px 20px 2px 2px;
+}
+.WelcomeScreen_mobilegridcell_10 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegrid_4 */
+.WelcomeScreen_mobilegrid_4 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.WelcomeScreen_mobilegrid_4 > tr > td {
+	vertical-align: top;
+}
+.WelcomeScreen_mobilegrid_4_row_0, .WelcomeScreen_mobilegrid_4_row_0 > td {
+	height: 30px
+}
+/* mobilegridcell_5 */
+.WelcomeScreen_mobilegridcell_5 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.WelcomeScreen_mobilegridcell_5 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* ATT */
+.WelcomeScreen_ATT {
+	margin: 4px 0px 4px 0px;
+	width: 127px; height: 85px;
+	display: block;
+}
+/* mobilegridcell_6 */
+.WelcomeScreen_mobilegridcell_6 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.WelcomeScreen_mobilegridcell_6 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* SDGElogo */
+.WelcomeScreen_SDGElogo {
+	margin: 4px 0px 4px 0px;
+	width: 135px; height: 87px;
+	display: block;
+}
+/* mobilefooter */
+.WelcomeScreen_mobilefooter {
+	min-height:38px;
+}

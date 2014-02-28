@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            GreenButtonDataPage
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="initial-scale=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <link href="files/resources/lib/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="files/resources/lib/theme/ios-like/ios-like.css" rel="stylesheet" />
+        <link href="files/resources/lib/jquerymobile/1.3.2/jquery.mobile.structure-1.3.2.css"
+        rel="stylesheet" />
+        <link type="text/css" rel="stylesheet" href="files/views/assets/css/FacebookPublishing_CSS.css"
+        />
+        <script type="text/javascript" src="files/resources/lib/store/json2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/jquery-1.8.2.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/1.3.2/jquery.mobile-1.3.2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/js/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jsonpath.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jquery.xml2json.min.js">
+        </script>
+        <link href="files/resources/lib/datepicker/jquery.ui.datepicker.mobile.css" rel="stylesheet"
+        type="text/css" />
+        <script type="text/javascript" src="files/resources/lib/datepicker/jQuery.ui.datepicker.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/datepicker/jquery.ui.datepicker.mobile.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/appery.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/cordova.js">
+        </script>
+        <link href="files/resources/css/mobilebase.css" rel="stylesheet" type="text/css"
+        />
+        <script type="text/javascript" src="files/views/assets/js/FacebookPublishing_Utils.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                if (navigator.userAgent.match(/iP/i))
+        {
+            $(window).bind('orientationchange', function(event)
+            {
+                $('meta[name="viewport"]').attr('content', 'initial-scale=1.0,maximum-scale=1.0, ' + ((window.orientation == 90 || window.orientation == -90 || window.orientation == 270) ? "height=device-width,width=device-height" : "height=device-height,width=device-width"));
+            }).trigger('orientationchange');
+        }
+        $(document).bind("mobileinit", function()
+        {
+            $.mobile.page.prototype.options.degradeInputs.date = true;
+        });
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="GreenButtonDataPage" id="GreenButtonDataPage"
+        class="type-interior" data-theme="b" data-add-back-btn="false" data-back-btn-text="Back">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-theme="b" name="mobileheader"
+            id="GreenButtonDataPage_mobileheader" class=' GreenButtonDataPage_mobileheader '>
+                <h1 dsid="mobileheader">
+                    Green Go Data
+                </h1>
+                <!-- mobilebutton_16 -->
+                <a data-role="button" name="mobilebutton_16" dsid="mobilebutton_16" class='ui-btn-left   GreenButtonDataPage_mobilebutton_16'
+                style='min-height:16px; ' id="GreenButtonDataPage_mobilebutton_16" data-corners="true"
+                data-icon="back" data-iconpos="left" x-apple-data-detectors="false" data-inline='true'
+                data-mini='true' data-theme="b" tabindex="1">
+                &nbsp;
+                </a>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="GreenButtonDataPage_mobilecontainer" name="mobilecontainer"
+            class=" GreenButtonDataPage_mobilecontainer" dsid="mobilecontainer" data-theme="b">
+                <link href="GreenButtonDataPage.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="GreenButtonDataPage.js">
+                </script>
+                <!-- mobilegrid_2 -->
+                <div class="GreenButtonDataPage_mobilegrid_2_wrapper">
+                    <table id="GreenButtonDataPage_mobilegrid_2" class=" GreenButtonDataPage_mobilegrid_2"
+                    dsid="mobilegrid_2" name="mobilegrid_2" cellpadding=0 cellspacing=0>
+                        <col style="width:auto;" />
+                        <col style="width:auto;" />
+                        <tr class="GreenButtonDataPage_mobilegrid_2_row_0">
+                            <!-- mobilegridcell_3 -->
+                            <td id="GreenButtonDataPage_mobilegridcell_3" name="mobilegridcell_3" class="GreenButtonDataPage_mobilegridcell_3"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel_7 -->
+                                    <div name="mobilelabel_7" id="GreenButtonDataPage_mobilelabel_7" dsid="mobilelabel_7"
+                                    data-role="appery_label" class=' GreenButtonDataPage_mobilelabel_7 '>
+                                        IntervalReading
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_4 -->
+                            <td id="GreenButtonDataPage_mobilegridcell_4" name="mobilegridcell_4" class="GreenButtonDataPage_mobilegridcell_4"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel_8 -->
+                                    <div name="mobilelabel_8" id="GreenButtonDataPage_mobilelabel_8" dsid="mobilelabel_8"
+                                    data-role="appery_label" class=' GreenButtonDataPage_mobilelabel_8 '>
+                                        Units Consumed
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="GreenButtonDataPage_mobilegrid_2_row_1">
+                            <!-- mobilegridcell_5 -->
+                            <td id="GreenButtonDataPage_mobilegridcell_5" name="mobilegridcell_5" class="GreenButtonDataPage_mobilegridcell_5"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_6 -->
+                            <td id="GreenButtonDataPage_mobilegridcell_6" name="mobilegridcell_6" class="GreenButtonDataPage_mobilegridcell_6"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- mobilegrid_11 -->
+                <div class="GreenButtonDataPage_mobilegrid_11_wrapper">
+                    <table id="GreenButtonDataPage_mobilegrid_11" class=" GreenButtonDataPage_mobilegrid_11"
+                    dsid="mobilegrid_11" name="mobilegrid_11" cellpadding=0 cellspacing=0>
+                        <col style="width:auto;" />
+                        <col style="width:auto;" />
+                        <tr class="GreenButtonDataPage_mobilegrid_11_row_0">
+                            <!-- mobilegridcell_12 -->
+                            <td id="GreenButtonDataPage_mobilegridcell_12" name="mobilegridcell_12" class="GreenButtonDataPage_mobilegridcell_12"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- IntervalInputlabel -->
+                                    <div name="IntervalInputlabel" id="GreenButtonDataPage_IntervalInputlabel" dsid="IntervalInputlabel"
+                                    data-role="appery_label" class=' GreenButtonDataPage_IntervalInputlabel '>
+                                        Label
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_13 -->
+                            <td id="GreenButtonDataPage_mobilegridcell_13" name="mobilegridcell_13" class="GreenButtonDataPage_mobilegridcell_13"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- Unitslabel -->
+                                    <div name="Unitslabel" id="GreenButtonDataPage_Unitslabel" dsid="Unitslabel" data-role="appery_label"
+                                    class=' GreenButtonDataPage_Unitslabel '>
+                                        Label
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="GreenButtonDataPage_mobilegrid_11_row_1">
+                            <!-- mobilegridcell_14 -->
+                            <td id="GreenButtonDataPage_mobilegridcell_14" name="mobilegridcell_14" class="GreenButtonDataPage_mobilegridcell_14"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_15 -->
+                            <td id="GreenButtonDataPage_mobilegridcell_15" name="mobilegridcell_15" class="GreenButtonDataPage_mobilegridcell_15"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class=" GreenButtonDataPage_mobilefooter"
+            name="mobilefooter" dsid="mobilefooter" id="GreenButtonDataPage_mobilefooter" data-theme="b">
+            </div>
+        </div>
+    </body>
+
+</html>
